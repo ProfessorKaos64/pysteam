@@ -29,7 +29,7 @@ def read_shortcuts(path):
 def write_shortcuts(path, shortcuts):
   vdf_contents = ShortcutGenerator().to_string(shortcuts)
   with open(path, "w") as f:
-    f.write(vdf_contents)
+    f.write(vdf_contents.encode("raw_unicode_escape"))
 
 # Helper functions which simply wrap the read/write shortcuts functions around
 # the LocalUserContext object
