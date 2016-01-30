@@ -49,7 +49,7 @@ class ShortcutGenerator(object):
     # supposed to end in x00 when there are more and x08 when there arent. Since
     # I am not sure, I am going to leave the code in for now
     def generate_keyvalue_pair(self,key,value,more=True):
-        return x01 + key + x00 + value.decode("raw_unicode_escape") + (x00 if more else x08)
+        return x01 + key + x00 + value + (x00 if more else x08)
 
     def generate_tags_string(self,tags):
         string = x00 + "tags" + x00
