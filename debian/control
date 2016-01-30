@@ -1,0 +1,14 @@
+Source: pysteam
+Section: python
+Priority: optional
+Maintainer: ProfessorKaos64 <mdeguzis@gmail.com>
+Build-Depends: debhelper (>= 7.2.18), python-all-dev, python3-all-dev, dh-python, procps, python-sphinx (>= 1.0.7+dfsg)
+Standards-Version: 3.9.5
+XS-Python-Version: all
+X-Python3-Version: >= 3.2
+Homepage: https://github.com/ProfessorKaos64/pysteam
+
+Package: pysteam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Description: Python API for accessing local Steam information
