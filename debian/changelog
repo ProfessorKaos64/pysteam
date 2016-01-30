@@ -1,1 +1,10 @@
+pysteam (1.0.0-1+git+bsos2) brewmaster; urgency=low
+
+  * Patched unicode/ascii issue upstream, pysteam/pull/7/files
+  * Packaged deb for SteamOS-Tools
+  * See: packages.libregeek.org
+  * Upstream authors and source: https://github.com/ProfessorKaos64/pysteam
+
+ -- SteamOS-Tools Signing Key <mdeguzis@gmail.com>  Fri, 29 Jan 2016 21:06:32 -0500
+
 
