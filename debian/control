@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.2.18), python-all-dev, python3-all-dev, dh-python
 Standards-Version: 3.9.5
 XS-Python-Version: all
 X-Python3-Version: >= 3.2
-Homepage: https://github.com/ProfessorKaos64/pysteam
+Homepage: https://github.com/scottrice/pysteam
 
 Package: pysteam
 Architecture: any
